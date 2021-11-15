@@ -13,7 +13,12 @@ const Home = () => {
 
   return (
     stocks.map((stock) => (
-      <p key={stock}>{stock}</p>
+      <div key={stock.ticker}>
+        <p>{stock.ticker}</p>
+        <p>{stock.price}</p>
+        <p>{stock.changes}</p>
+        <p>{stock.changesPercentage}</p>
+      </div>
     ))
   );
 };
