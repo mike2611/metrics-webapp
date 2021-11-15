@@ -13,11 +13,13 @@ const Home = () => {
 
   return (
     stocks.map((stock) => (
-      <div key={stock.ticker}>
-        <p>{stock.ticker}</p>
-        <p>{stock.price}</p>
-        <p>{stock.changes}</p>
-        <p>{stock.changesPercentage}</p>
+      <div key={stock.ticker} className="card">
+        <div className="card-body">
+          <p className="text-danger">{stock.ticker}</p>
+          <p>{stock.price}</p>
+          <p>{stock.changes}</p>
+          <p>{stock.changesPercentage}</p>
+        </div>
       </div>
     ))
   );
