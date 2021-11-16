@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchStocks } from '../redux/stocks/stocksReducer';
@@ -13,14 +14,14 @@ const Home = () => {
 
   return (
     stocks.map((stock) => (
-      <div key={stock.ticker} className="card">
+      <NavLink key={stock.ticker} className="card" to="/details">
         <div className="card-body">
           <p className="text-danger">{stock.ticker}</p>
           <p>{stock.price}</p>
           <p>{stock.changes}</p>
           <p>{stock.changesPercentage}</p>
         </div>
-      </div>
+      </NavLink>
     ))
   );
 };

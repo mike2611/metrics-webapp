@@ -1,6 +1,6 @@
 import { Provider } from 'react-redux';
 import './App.css';
-import Home from './components/Home';
+import Routing from './components/Routing';
 import configureStore from './redux/configureStore';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <Provider store={store}>
       <div className="App">
         <p>Test</p>
-        <Home />
+        <Routing />
       </div>
     </Provider>
   );
