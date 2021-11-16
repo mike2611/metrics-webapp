@@ -18,18 +18,39 @@ const Home = () => {
   };
 
   return (
-    stocks.map((stock) => (
-      <div aria-hidden="true" key={`${stock.ticker}key`} onClick={() => setSelectStock(stock.ticker)}>
-        <NavLink className="card" to="/details">
-          <div className="card-body">
-            <p className="text-danger">{stock.ticker}</p>
-            <p>{stock.price}</p>
-            <p>{stock.changes}</p>
-            <p>{stock.changesPercentage}</p>
-          </div>
-        </NavLink>
+    <>
+      <div className="row">
+        <div className="col home-col-top">
+          <h1>Most Gainer Stock Companies</h1>
+        </div>
       </div>
-    ))
+      <div>
+        <div className="row row-cols-2">
+          {stocks.map((stock) => (
+            <div className="col home-col-stock" aria-hidden="true" key={`${stock.ticker}key`} onClick={() => setSelectStock(stock.ticker)}>
+              <NavLink className="text-decoration-none" to="/details">
+                <div>
+                  <h2 className="home-symbol">{stock.ticker}</h2>
+                  <p className="home-info">
+                    Price:&nbsp;
+                    {stock.price}
+                  </p>
+                  <p className="home-info">
+                    Change:&nbsp;
+                    {stock.changes}
+                  </p>
+                  <p className="home-info">
+                    Change:&nbsp;
+                    {stock.changesPercentage.slice(0, 5)}
+                    %
+                  </p>
+                </div>
+              </NavLink>
+            </div>
+          ))}
+        </div>
+      </div>
+    </>
   );
 };
 

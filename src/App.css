@@ -2,3 +2,23 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.home-col-top {
+  background-color: #598ae7;
+  color: white;
+}
+
+.home-col-stock {
+  background-color: #4268b0;
+}
+
+.home-symbol {
+  color: #2d4573;
+  font-weight: bolder;
+  font-size: 3.5rem;
+}
+
+.home-info {
+  color: white;
+}
+
