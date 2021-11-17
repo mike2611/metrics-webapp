@@ -3,6 +3,17 @@ body {
   padding: 0;
 }
 
+.home-col-header {
+  background-color: #35548b;
+  color: white;
+  height: 2rem;
+}
+
+.home-header-text {
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+
 .home-col-top {
   background-color: #598ae7;
   color: white;

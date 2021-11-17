@@ -1,7 +1,8 @@
 import { NavLink } from 'react-router-dom';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { FaCoins } from 'react-icons/fa';
+import { FaCoins, FaMicrophone } from 'react-icons/fa';
+import { BsGearFill } from 'react-icons/bs';
 import { fetchStocks } from '../redux/stocks/stocksReducer';
 import { setStock } from '../redux/details/detailsReducer';
 
@@ -10,6 +11,8 @@ const Home = () => {
   let aux = true;
   let firstClass = 'col home-col-stock-dark';
   let secondClass = 'col home-col-stock-ligth';
+  const current = new Date();
+  const date = `${current.getDate()}/${current.getMonth() + 1}/${current.getFullYear()}`;
   stocks = useSelector((state) => state.stocksReducer);
   const dispatch = useDispatch();
 
@@ -24,15 +27,21 @@ const Home = () => {
   return (
     <>
       <div className="row">
+        <div className="col home-col-header d-flex">
+          <p>{date}</p>
+          <h2 className="home-header-text">Today Most Gainer Stocks</h2>
+          <FaMicrophone />
+          <BsGearFill />
+        </div>
+      </div>
+      <div className="row">
         <div className="col home-col-top d-flex align-items-center">
           <FaCoins className=" ms-2 home-icon" />
           <h1 className="ms-4 home-title">
             Top&nbsp;
             {stocks.length}
             &nbsp;
-            Gainer
-            Stock
-            Companies
+            stocks
           </h1>
         </div>
       </div>
