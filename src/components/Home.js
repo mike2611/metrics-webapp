@@ -29,7 +29,7 @@ const Home = () => {
       <div className="row px-0">
         <div className="col home-col-header d-flex justify-content-around pt-2">
           <p>{date}</p>
-          <h2 className="home-header-text">Today Most Gainer Stocks</h2>
+          <h2 className="home-header-text mt-2">Today Most Gainer Stocks</h2>
           <div>
             <FaMicrophone className="me-2" />
             <BsGearFill />
@@ -47,9 +47,9 @@ const Home = () => {
           </h1>
         </div>
       </div>
-      <div className="row home-separation-row">
+      <div className="row home-separation-row d-flex">
         <div className="col">
-          <p>Click a stock for more details.</p>
+          <p className="mt-1">CLICK A STOCK FOR MORE DETAILS</p>
         </div>
       </div>
       <div>
