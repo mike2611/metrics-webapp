@@ -76,16 +76,18 @@ const Home = () => {
                     <div className="container">
                       <p className="home-info mb-0">
                         Price:&nbsp;
-                        {stock.price}
+                        <span className="home-info-numbers">{parseFloat(stock.price).toFixed(3)}</span>
                       </p>
                       <p className="home-info mb-0">
                         Change:&nbsp;
-                        {stock.changes}
+                        <span className="home-info-numbers">{parseFloat(stock.changes).toFixed(3)}</span>
                       </p>
                       <p className="home-info">
                         Change:&nbsp;
-                        {stock.changesPercentage.slice(0, 4)}
-                        %
+                        <span className="home-info-numbers">
+                          {stock.changesPercentage.slice(0, 4)}
+                          %
+                        </span>
                       </p>
                     </div>
                   </div>

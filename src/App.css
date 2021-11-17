@@ -52,6 +52,12 @@
 
 .home-info {
   color: white;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.home-info-numbers {
+  color: white;
   font-weight: 800;
   font-size: 0.9rem;
 }
