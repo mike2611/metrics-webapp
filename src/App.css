@@ -27,7 +27,7 @@
   background-color: #35548b;
   color: white;
   height: 2rem;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 
@@ -60,4 +60,58 @@
   color: white;
   font-weight: 800;
   font-size: 0.9rem;
+}
+
+.details-container {
+  height: 100vh;
+  background-color: #3f62a4;
+}
+
+.details-col-header {
+  background-color: #35548b;
+  color: white;
+  height: 2.3rem;
+}
+
+.details-header-back {
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+}
+
+.details-header-text {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.details-symbol {
+  color: #2d4573;
+  font-weight: bolder;
+  font-size: 1.8rem;
+}
+
+.details-separation-row {
+  background-color: #35548b;
+  color: white;
+  height: 2rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.details-col {
+  height: 8rem;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.details-ligth-col {
+  background-color: #4d72b6;
+}
+
+.details-dark-col {
+  background-color: #3f62a4;
+}
+
+.details-info {
+  font-weight: 900;
 }
