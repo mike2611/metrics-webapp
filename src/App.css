@@ -1,4 +1,117 @@
-body {
-  margin: 0;
-  padding: 0;
+.home-col-header {
+  background-color: #35548b;
+  color: white;
+  height: 2.3rem;
+}
+
+.home-header-text {
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+.home-col-top {
+  background-color: #598ae7;
+  color: white;
+}
+
+.home-icon {
+  color: #2d4573;
+  font-size: 6rem;
+}
+
+.home-title {
+  font-size: 1.5rem;
+}
+
+.home-separation-row {
+  background-color: #35548b;
+  color: white;
+  height: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.home-col-stock-ligth {
+  background-color: #4d72b6;
+}
+
+.home-col-stock-dark {
+  background-color: #3f62a4;
+}
+
+.home-symbol {
+  color: #2d4573;
+  font-weight: bolder;
+  font-size: 1.8rem;
+}
+
+.home-arrow {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.home-info {
+  color: white;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.home-info-numbers {
+  color: white;
+  font-weight: 800;
+  font-size: 0.9rem;
+}
+
+.details-container {
+  height: 100vh;
+  background-color: #3f62a4;
+}
+
+.details-col-header {
+  background-color: #35548b;
+  color: white;
+  height: 2.3rem;
+}
+
+.details-header-back {
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+}
+
+.details-header-text {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.details-symbol {
+  color: #2d4573;
+  font-weight: bolder;
+  font-size: 1.8rem;
+}
+
+.details-separation-row {
+  background-color: #35548b;
+  color: white;
+  height: 2rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.details-col {
+  height: 8rem;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.details-ligth-col {
+  background-color: #4d72b6;
+}
+
+.details-dark-col {
+  background-color: #3f62a4;
+}
+
+.details-info {
+  font-weight: 900;
 }

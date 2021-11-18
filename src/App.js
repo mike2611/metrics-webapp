@@ -1,10 +1,17 @@
+import { Provider } from 'react-redux';
 import './App.css';
+import Routing from './components/Routing';
+import configureStore from './redux/configureStore';
 
 function App() {
+  const store = configureStore;
+
   return (
-    <div className="App">
-      <p>Test</p>
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        <Routing />
+      </div>
+    </Provider>
   );
 }
 
