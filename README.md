@@ -62,7 +62,7 @@ Feel free to check the [issues page](https://github.com/mike2611/spaceships.git/
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-- [Financial Modeling Prep API Documentation](https://www.linkedin.com/in/miguel-puentes-mata/)
+- [Financial Modeling Prep API Documentation](https://site.financialmodelingprep.com/developer/docs/?gclid=CjwKCAiA7dKMBhBCEiwAO_crFHVfCV0OuWi0qkdp2uH_lJ4eL3zQWvqr0gDolVaiguy1pE4mqUOzmRoCdIgQAvD_BwE)
 
 - [Original design idea by Nelson Sakwa on Behance.](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
 
