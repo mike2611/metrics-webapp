@@ -3,7 +3,7 @@
 # Stocks Metrics
 
 > A React-Redux stock metrics application.
-Get the best-performing stocks daily see stocks prices, their changes, and the most useful information of each stock.
+Get the best-performing stocks daily. See stocks prices, their changes, and the most useful information of each stock.
 
 
 ![screenshot](./img/mobileVersion.png)
