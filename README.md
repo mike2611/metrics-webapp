@@ -10,9 +10,9 @@ Get the best-performing stocks daily see stocks prices, their changes, and the m
 
 ## Explanation Video
 
-<a href="https://www.loom.com/share/c6db8718465647e5a863f4314c313072">
+<a href="https://www.loom.com/share/3894e3f2fce2431eb7b98d36285dc99f">
     <p>Loom | Free Screen & Video Recording Software - Watch Video</p>
-    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/c6db8718465647e5a863f4314c313072-with-play.gif">
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/3894e3f2fce2431eb7b98d36285dc99f-with-play.gif">
 </a>
 
 
