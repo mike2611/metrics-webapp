@@ -45,7 +45,6 @@ To get a local copy up and running follow these simple example steps.
  
  Run `npm start`.
 
- Your computer will open the main page where you can add your name and score
  
 ## Run tests
  Clone the project using `git clone https://github.com/mike2611/metrics-webapp.git`.
